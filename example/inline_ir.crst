@@ -1,0 +1,15 @@
+
+// return argc - 1;
+
+int main(int argc, char** argv) {
+  int retval = 1
+
+  ir 
+  {
+    "movl retval, argc"
+    "subl retval, 1"
+    : "retval"
+  }
+
+  return retval;
+}
